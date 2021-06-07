@@ -1,0 +1,43 @@
+comandos
+  # Horas
+  - commmand:
+    imput: Que horas são?
+    entity: time
+    action: getTime
+  - commmand:
+    imput: Horas por favor.
+    entity: time
+    action: getTime
+
+  # Data
+
+  - commmand:
+    imput: Qual é a data de hoje?
+    entity: time
+    action: getDate
+  - commmand:
+    imput: data de hoje.
+    entity: time
+    action: getDate
+
+  # Tempo
+
+  - commmand:
+    imput: Previsão do tempo
+    entity: time
+    action: getWeather
+  - commmand:
+    imput: Como está o clima?
+    entity: time
+    action: getWeather
+
+  # Abrir
+
+  - commmand:
+    imput: Abrir o google
+    entity: open
+    action: 
+  - commmand:
+    imput: Abra o youtube
+    entity: open
+    action: 
