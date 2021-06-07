@@ -1,7 +1,7 @@
 import datetime
 
 class SystemInfo:
-    def _init_():
+    def _init_(self):
         pass
 
     def get_time():
