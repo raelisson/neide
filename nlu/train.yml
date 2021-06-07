@@ -1,43 +1,37 @@
-comandos
+comandos:
   # Horas
-  - commmand:
-    imput: Que horas são?
+  - command:
+    input: Que horas são?
     entity: time
     action: getTime
-  - commmand:
-    imput: Horas por favor.
+  - command:
+    input: Horas por favor.
     entity: time
     action: getTime
-
   # Data
-
-  - commmand:
-    imput: Qual é a data de hoje?
+  - command:
+    input: Qual é a data de hoje?
     entity: time
     action: getDate
-  - commmand:
-    imput: data de hoje.
+  - command:
+    input: data de hoje.
     entity: time
     action: getDate
-
   # Tempo
-
-  - commmand:
-    imput: Previsão do tempo
+  - command:
+    input: Previsão do tempo
     entity: time
     action: getWeather
-  - commmand:
-    imput: Como está o clima?
+  - command:
+    input: Como está o clima?
     entity: time
     action: getWeather
-
   # Abrir
-
-  - commmand:
-    imput: Abrir o google
+  - command:
+    input: Abrir o google
     entity: open
     action: 
-  - commmand:
-    imput: Abra o youtube
+  - command:
+    input: Abra o youtube
     entity: open
     action: 
